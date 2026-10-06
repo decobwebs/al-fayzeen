@@ -1,0 +1,905 @@
+{
+  "common": {
+    "sample": "Sample",
+    "sampleHint": "Sample prices and dates for this prototype",
+    "tbc": "[To be confirmed]",
+    "gapHint": "To be confirmed by Al Fayzeen",
+    "loading": "Loading",
+    "progress": "Step {value} of {total}",
+    "nightsMakkah": "{n} night Makkah | {n} nights Makkah",
+    "nightsMadinah": "{n} night Madinah | {n} nights Madinah",
+    "from": "From",
+    "perPerson": "per person",
+    "enquire": "Enquire",
+    "copy": "Copy",
+    "copied": "Copied",
+    "close": "Close",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content",
+    "copyFailed": "Copy failed",
+    "newTab": "(opens in a new tab)",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  },
+  "nav": {
+    "packages": "Packages",
+    "flights": "Flights",
+    "hotels": "Hotels",
+    "transport": "Transport",
+    "visa": "e-Visa",
+    "guide": "Umrah guide",
+    "contact": "Contact",
+    "plan": "Plan my Umrah",
+    "home": "Al Fayzeen home",
+    "primary": "Main"
+  },
+  "lang": {
+    "label": "Language",
+    "en": "EN",
+    "ar": "العربية"
+  },
+  "whatsappFloat": {
+    "tooltip": "Chat with us on WhatsApp",
+    "label": "Chat with us on WhatsApp"
+  },
+  "footer": {
+    "about": "A licensed Umrah company based in Makkah, serving pilgrims from Nigeria.",
+    "licence": "Licence",
+    "licenceGap": "[Ministry of Hajj and Umrah licence no.]",
+    "services": "Services",
+    "help": "Help",
+    "contact": "Contact",
+    "links": {
+      "packages": "Umrah packages",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "transport": "Transport",
+      "visa": "Umrah e-Visa",
+      "guide": "Umrah guide",
+      "questions": "Questions",
+      "about": "About us",
+      "contact": "Contact"
+    },
+    "makkahOffice": "Makkah office",
+    "nigeriaContact": "Nigeria contact",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "gapAddress": "[address]",
+    "gapNigeria": "[address or remove]",
+    "gapNumber": "[number]",
+    "gapEmail": "[email]",
+    "copyWhen": "Copy available once confirmed",
+    "rights": "© 2026 Al Fayzeen. All rights reserved.",
+    "hijri": "Today",
+    "payments": "Payment methods",
+    "social": "Social media",
+    "socialGap": "[to confirm]",
+    "socialPending": "{name}: link to be confirmed"
+  },
+  "enquiry": {
+    "title": "How would you like to talk to us?",
+    "sub": "A coordinator in Makkah will reply with prices and available dates.",
+    "about": "You're asking about",
+    "general": "Planning my Umrah",
+    "steps": {
+      "choose": "Choose",
+      "details": "Your details",
+      "sent": "Sent"
+    },
+    "wa": {
+      "title": "WhatsApp",
+      "line": "Fastest. Usually within {x} minutes.",
+      "lineGap": "[x]",
+      "preview": "Your message",
+      "open": "Open WhatsApp",
+      "disabledHint": "WhatsApp number to be confirmed"
+    },
+    "em": {
+      "title": "Email",
+      "line": "Send details and we'll reply by email."
+    },
+    "back": "Back",
+    "form": {
+      "name": "Full name",
+      "phone": "Phone",
+      "dialCode": "Country code",
+      "email": "Email",
+      "contactTime": "Best time to reach you",
+      "notes": "Anything else we should know?",
+      "notesHint": "Optional. Dates, budget, who's travelling.",
+      "times": {
+        "morning": "Morning (Nigeria time)",
+        "afternoon": "Afternoon (Nigeria time)",
+        "evening": "Evening (Nigeria time)",
+        "any": "Any time"
+      },
+      "submit": "Send enquiry",
+      "sending": "Sending your enquiry",
+      "errorSummary": "Please check the highlighted fields.",
+      "serverError": "We couldn't send your enquiry. Please try again in a moment.",
+      "privacy": "We only use your details to reply to this enquiry."
+    },
+    "errors": {
+      "name_min": "Please enter your name.",
+      "name_max": "Please shorten your name.",
+      "phone_invalid": "Please enter a valid phone number.",
+      "email_invalid": "Please enter a valid email address.",
+      "notes_max": "Please keep notes under 1,000 characters."
+    },
+    "success": {
+      "title": "Thank you, {name}.",
+      "body": "Your reference is {ref}. We'll reply to {email} soon. You can also message us on WhatsApp with this reference.",
+      "done": "Done",
+      "copyRef": "Copy reference"
+    },
+    "ref": "Ref"
+  },
+  "hero": {
+    "eyebrowAr": "لبيك",
+    "eyebrow": "Licensed Umrah company · Makkah",
+    "h1a": "Your",
+    "h1b": "our responsibility.",
+    "words": [
+      "Ibadah",
+      "Umrah",
+      "Journey",
+      "Family"
+    ],
+    "h1Full": "Your Ibadah, our responsibility.",
+    "sub": "Umrah packages, flights from Nigeria, hotels near the Haram, transport and your Umrah e-Visa, arranged by one licensed company in Makkah.",
+    "seePackages": "See all packages",
+    "howItWorks": "How it works",
+    "notSure": "Not sure yet? {link} and we'll plan it with you.",
+    "notSureLink": "Tell us on WhatsApp",
+    "calligraphy": "لبيك اللهم لبيك",
+    "comma": ","
+  },
+  "search": {
+    "label": "Plan your trip",
+    "tabs": {
+      "packages": "Umrah Packages",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "transport": "Transport",
+      "visa": "e-Visa"
+    },
+    "month": "Travel month",
+    "monthAny": "Any month",
+    "ramadan": "Ramadan 1448",
+    "travellers": "Travellers",
+    "adults": "Adults",
+    "adultsHint": "12 years and over",
+    "children": "Children",
+    "childrenHint": "2–11 years",
+    "infants": "Infants",
+    "infantsHint": "Under 2",
+    "travellersSummary": "{n} traveller | {n} travellers",
+    "style": "Package style",
+    "styles": {
+      "any": "Any",
+      "essential": "Essential",
+      "comfort": "Comfort",
+      "premium": "Premium",
+      "ramadan": "Ramadan"
+    },
+    "showPackages": "Show packages",
+    "tripType": "Trip type",
+    "trips": {
+      "round": "Round-trip",
+      "oneway": "One-way",
+      "multi": "Multi-city"
+    },
+    "from": "From",
+    "to": "To",
+    "depart": "Depart",
+    "return": "Return",
+    "then": "Then fly",
+    "leg2From": "From",
+    "leg2To": "To",
+    "leg2Date": "Date",
+    "cabin": "Cabin",
+    "cabins": {
+      "Economy": "Economy",
+      "Business": "Business"
+    },
+    "travellersCabin": "Travellers & cabin",
+    "searchFlights": "Search flights",
+    "city": "City",
+    "cities": {
+      "makkah": "Makkah",
+      "madinah": "Madinah"
+    },
+    "checkin": "Check-in",
+    "checkout": "Check-out",
+    "roomsGuests": "Rooms & guests",
+    "rooms": "Rooms",
+    "roomsSummary": "{rooms} room · {guests} guests | {rooms} rooms · {guests} guests",
+    "walk": "Walk to Haram",
+    "walks": {
+      "any": "Any",
+      "5": "Under 5 min",
+      "10": "Under 10 min",
+      "15": "Under 15 min"
+    },
+    "searchHotels": "Search hotels",
+    "service": "Service",
+    "services": {
+      "airport": "Airport transfer",
+      "intercity": "Makkah ↔ Madinah",
+      "ziyarat": "Ziyarat tour",
+      "daily": "Car with driver by the day"
+    },
+    "pickup": "Pick-up",
+    "dropoff": "Drop-off",
+    "dateTime": "Date & time",
+    "time": "Time",
+    "passengers": "Passengers",
+    "places": {
+      "JED": "Jeddah airport (JED)",
+      "MED": "Madinah airport (MED)",
+      "makkah-hotel": "Hotel in Makkah",
+      "madinah-hotel": "Hotel in Madinah",
+      "makkah-station": "Haramain station, Makkah",
+      "madinah-station": "Haramain station, Madinah"
+    },
+    "seeVehicles": "See vehicles",
+    "nationality": "Nationality",
+    "nationalityPlaceholder": "Search nationality",
+    "applicants": "Applicants",
+    "checkRequirements": "Check requirements",
+    "selectDates": "Select dates",
+    "selectDate": "Select date",
+    "done": "Done",
+    "clear": "Clear",
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month",
+    "decrease": "Decrease {what}",
+    "increase": "Increase {what}"
+  },
+  "trust": {
+    "licensed": "Licensed by the Ministry of Hajj and Umrah",
+    "licenceGap": "[licence no.]",
+    "office": "Office in Makkah",
+    "visa": "Visa processing included",
+    "support": "Support in English, Arabic and Hausa",
+    "label": "Why pilgrims trust us"
+  },
+  "services": {
+    "eyebrowAr": "خدماتنا",
+    "eyebrow": "Our services",
+    "h2": "Everything for your Umrah, in one place",
+    "tiles": {
+      "packages": {
+        "title": "Umrah packages",
+        "text": "Complete trips: visa, hotels, transport and a coordinator on the ground."
+      },
+      "flights": {
+        "title": "Flights",
+        "text": "From Lagos, Abuja and Kano to Jeddah or Madinah."
+      },
+      "hotels": {
+        "title": "Hotels",
+        "text": "Makkah and Madinah, sorted by walking time to the Haram."
+      },
+      "transport": {
+        "title": "Transport",
+        "text": "Airport pick-ups, the road to Madinah and a car with driver."
+      },
+      "visa": {
+        "title": "Umrah e-Visa",
+        "text": "We prepare your documents and submit your application.",
+        "gap": "[confirm wording]"
+      }
+    },
+    "explore": "Explore"
+  },
+  "why": {
+    "eyebrowAr": "لماذا نحن",
+    "eyebrow": "Why Al Fayzeen",
+    "statement": "Most Umrah agencies sell a package they bought from a company in Saudi Arabia.",
+    "statementStrong": "Al Fayzeen is that company.",
+    "pillars": [
+      {
+        "title": "Someone on the ground",
+        "text": "Your coordinator lives in Makkah, meets you at the airport and stays reachable until you fly home."
+      },
+      {
+        "title": "Hotels we've walked to",
+        "text": "We list the real walking time from each hotel to the Haram, measured by our team."
+      },
+      {
+        "title": "Direct prices",
+        "text": "No middle layers between you and the hotel. You pay for your Umrah, not for commissions."
+      },
+      {
+        "title": "One number, one answer",
+        "text": "One WhatsApp line for your whole trip, answered in English, Arabic and Hausa."
+      }
+    ]
+  },
+  "packages": {
+    "eyebrowAr": "الباقات",
+    "eyebrow": "Umrah packages",
+    "h2": "Choose how you'd like to travel",
+    "filters": {
+      "all": "All",
+      "essential": "Essential",
+      "comfort": "Comfort",
+      "premium": "Premium",
+      "ramadan": "Ramadan"
+    },
+    "compareAll": "Compare all packages",
+    "filterLabel": "Filter packages by style",
+    "empty": "No packages in this style yet."
+  },
+  "card": {
+    "mostChosen": "Most chosen",
+    "walk": "About {m} m · {min} min walk to the Haram",
+    "room": "Room",
+    "rooms": {
+      "quad": "Quad",
+      "triple": "Triple",
+      "double": "Double"
+    },
+    "roomHint": "{n} people sharing",
+    "included": "Included",
+    "nextDeparture": "Next departure: {date}",
+    "view": "View package",
+    "enquire": "Enquire",
+    "inc": {
+      "Umrah visa": "Umrah visa",
+      "Return flights": "Return flights",
+      "Hotel in Makkah": "Hotel in Makkah",
+      "Hotel in Madinah": "Hotel in Madinah",
+      "Airport transfers": "Airport transfers",
+      "Haramain train": "Haramain train",
+      "Guided Umrah": "Guided Umrah",
+      "Coordinator 24/7": "Coordinator 24/7"
+    },
+    "enq": {
+      "package": "Package",
+      "nights": "Nights",
+      "departure": "Departure",
+      "room": "Room",
+      "travellers": "Travellers",
+      "from": "Price from",
+      "city": "Flying from"
+    }
+  },
+  "how": {
+    "eyebrowAr": "كيف نعمل",
+    "eyebrow": "How it works",
+    "h2": "From first message to flight home",
+    "steps": [
+      {
+        "title": "Choose your trip",
+        "text": "Compare packages, or build your own from flights, hotels and transport. Ask us anything on WhatsApp."
+      },
+      {
+        "title": "Reserve your place",
+        "text": "Pay a deposit of {deposit} to hold your place. Pay the rest in instalments up to {days} days before departure."
+      },
+      {
+        "title": "Send your documents",
+        "text": "Your passport (valid for at least 6 months), a passport photo and anything else we list for your trip."
+      },
+      {
+        "title": "Visa and tickets confirmed",
+        "text": "We process your Umrah visa and send your e-visa, tickets and hotel vouchers."
+      },
+      {
+        "title": "Travel with us",
+        "text": "Your coordinator meets you at the airport and stays with your group until you leave."
+      }
+    ],
+    "gapPercent": "[x]%",
+    "gapDays": "[x]",
+    "step": "Step {n}"
+  },
+  "journey": {
+    "eyebrowAr": "رحلتك",
+    "eyebrow": "Your journey",
+    "h2": "What your Umrah looks like",
+    "route": {
+      "LOS": "Lagos",
+      "JED": "Jeddah",
+      "MAK": "Makkah",
+      "MED": "Madinah"
+    },
+    "routeLabel": "Route: Lagos, Jeddah, Makkah, Madinah",
+    "panels": [
+      {
+        "title": "Arrive",
+        "text": "Your coordinator meets you at Jeddah airport. A private bus takes you to your hotel in Makkah to rest."
+      },
+      {
+        "title": "Perform your Umrah",
+        "text": "Tawaf and Sa'i together with your group leader, at a calm hour."
+      },
+      {
+        "title": "Days in Makkah",
+        "text": "Prayers at the Haram, with optional visits to Jabal al-Nour, Arafat and Mina."
+      },
+      {
+        "title": "To Madinah",
+        "text": "The Haramain high-speed train or a private car, as your package includes."
+      },
+      {
+        "title": "Madinah",
+        "text": "Prayers at Masjid an-Nabawi, your Rawdah visit, Quba Mosque and Mount Uhud."
+      },
+      {
+        "title": "Farewell",
+        "text": "A transfer to the airport and your journey home."
+      }
+    ],
+    "stage": "Stage {n} of 6"
+  },
+  "list": {
+    "compare": "Compare",
+    "eyebrowAr": "الباقات",
+    "eyebrow": "Umrah packages",
+    "h1": "Umrah packages",
+    "sub": "Every package includes your Umrah visa, hotels, transport in Saudi Arabia and a coordinator on the ground.",
+    "subGap": "[confirm]",
+    "filters": "Filters",
+    "showResults": "Show {n} package | Show {n} packages",
+    "reset": "Reset filters",
+    "month": "Travel month",
+    "style": "Style",
+    "budget": "Budget per person",
+    "nights": "Nights",
+    "walk": "Max walk to the Haram",
+    "flights": "Flights included",
+    "city": "Departure city",
+    "any": "Any",
+    "yes": "Yes",
+    "no": "No",
+    "anyCity": "Any city",
+    "nightsRange": "{min}–{max} nights",
+    "walkUnder": "Under {n} min",
+    "sort": "Sort by",
+    "sorts": {
+      "departure": "Next departure",
+      "price": "Price: low to high",
+      "walk": "Closest to the Haram"
+    },
+    "results": "{n} package | {n} packages",
+    "searchFor": "For {pax} travellers",
+    "empty": "No packages match these choices. Tell us your dates on WhatsApp and we'll build one for you.",
+    "emptyButton": "Tell us your dates",
+    "compareBar": "{n} of 3 selected",
+    "compareOpen": "Compare packages",
+    "compareClear": "Clear",
+    "compareHint": "Select 2 or 3 packages to compare",
+    "compareTitle": "Compare packages",
+    "rows": {
+      "quad": "Quad, per person",
+      "triple": "Triple, per person",
+      "double": "Double, per person",
+      "nights": "Nights",
+      "walk": "Walk to the Haram (Makkah)",
+      "stars": "Hotel class",
+      "transport": "Transport",
+      "included": "Included",
+      "departure": "Next departure",
+      "flights": "Flights included"
+    },
+    "min": "minimum",
+    "max": "maximum"
+  },
+  "meta": {
+    "description": "Umrah packages, flights from Nigeria, hotels near the Haram, transport and your Umrah e-Visa, arranged by one licensed company in Makkah."
+  },
+  "hotels": {
+    "eyebrowAr": "الفنادق",
+    "eyebrow": "Hotels",
+    "h2": "Close enough to hear the Adhan",
+    "seeAll": "See all hotels",
+    "cityLabel": "City",
+    "card": {
+      "partnerGap": "[Partner hotel]",
+      "stars": "{n}-star",
+      "walkMin": "{n} min",
+      "walkLabel": "{n} minute walk to the Haram",
+      "distance": "About {m} m from the Haram",
+      "includedIn": "Included in: {list}",
+      "enquire": "Enquire",
+      "perNight": "per room per night",
+      "map": "Open in Google Maps",
+      "measuredTo": "Distance measured to {gate}",
+      "gateGap": "[King Abdulaziz Gate / Bab al-Salam]"
+    }
+  },
+  "included": {
+    "eyebrowAr": "ما يشمله",
+    "eyebrow": "What's included",
+    "h2": "Handled for you",
+    "items": [
+      "Umrah visa",
+      "Return flights (selected packages)",
+      "Hotel in Makkah",
+      "Hotel in Madinah",
+      "Airport and city transfers",
+      "Haramain train (Comfort and Premium)",
+      "Guided Umrah",
+      "Ziyarat tours",
+      "Zamzam water",
+      "Saudi SIM card",
+      "Pre-departure seminar in Nigeria",
+      "Coordinator available 24/7"
+    ],
+    "confirm": "[confirm]",
+    "confirmCity": "[confirm city]"
+  },
+  "stories": {
+    "eyebrowAr": "قصص الحجاج",
+    "eyebrow": "Pilgrim stories",
+    "h2": "In their words",
+    "placeholder": "Real pilgrim stories will appear here, with their permission.",
+    "slot": "Story {n}",
+    "videoLabel": "Pilgrim story video, coming soon"
+  },
+  "guide": {
+    "eyebrowAr": "دليل العمرة",
+    "eyebrow": "Umrah guide",
+    "h2": "Your first Umrah, step by step",
+    "steps": [
+      {
+        "ar": "إحرام",
+        "en": "Ihram",
+        "text": "Enter the sacred state at the Miqat with intention and the Talbiyah."
+      },
+      {
+        "ar": "طواف",
+        "en": "Tawaf",
+        "text": "Seven circuits around the Kaaba, counter-clockwise."
+      },
+      {
+        "ar": "سعي",
+        "en": "Sa'i",
+        "text": "Seven walks between Safa and Marwah."
+      },
+      {
+        "ar": "حلق / تقصير",
+        "en": "Halq or Taqsir",
+        "text": "Shave or shorten the hair to complete your Umrah."
+      }
+    ],
+    "cards": {
+      "stepByStep": "Umrah step by step",
+      "pack": "What to pack",
+      "rawdah": "Visiting the Rawdah"
+    },
+    "read": "Read the guide",
+    "soon": "Coming soon",
+    "lead": "Get our free Umrah guide (PDF) on WhatsApp",
+    "leadButton": "Send me the guide",
+    "leadMessage": "Please send me the Umrah guide",
+    "stepN": "Step {n}"
+  },
+  "faq": {
+    "eyebrowAr": "أسئلة",
+    "eyebrow": "Questions",
+    "h2": "Questions pilgrims ask us",
+    "gap": "[Answer from Al Fayzeen]",
+    "still": "Still unsure? Ask a coordinator on WhatsApp.",
+    "ask": "Ask on WhatsApp"
+  },
+  "cta": {
+    "h2": "Start your Umrah with a conversation.",
+    "sub": "Tell us your month, your budget and who's travelling. A coordinator in Makkah will reply with options.",
+    "whatsapp": "Chat on WhatsApp",
+    "email": "Send an email"
+  },
+  "detail": {
+    "back": "All packages",
+    "nav": {
+      "overview": "Overview",
+      "itinerary": "Itinerary",
+      "hotels": "Hotels",
+      "included": "What's included",
+      "visa": "Visa & documents",
+      "payment": "Payment plan",
+      "cancellation": "Cancellation",
+      "questions": "Questions"
+    },
+    "sectionNav": "On this page",
+    "overview": {
+      "title": "Overview",
+      "transport": "Transport",
+      "hotelMakkah": "Hotel in Makkah",
+      "hotelMadinah": "Hotel in Madinah",
+      "walk": "{min} min walk · about {m} m",
+      "walkShort": "{min} min walk",
+      "stars": "{n}-star",
+      "from": "Departs from",
+      "flights": "Return flights",
+      "flightsYes": "Included",
+      "flightsNo": "Not included"
+    },
+    "itinerary": {
+      "title": "Itinerary, day by day"
+    },
+    "hotels": {
+      "title": "Where you'll stay"
+    },
+    "included": {
+      "title": "What's included",
+      "yes": "Included",
+      "no": "Not included"
+    },
+    "visa": {
+      "title": "Visa & documents",
+      "text": "Your Umrah visa is processed by our licensed company account. We'll tell you exactly what to send.",
+      "processing": "Processing time",
+      "processingGap": "[x] working days"
+    },
+    "payment": {
+      "title": "Payment plan",
+      "gap": "[Deposit, instalment schedule and payment methods to be confirmed by Al Fayzeen]",
+      "methods": "Payment methods"
+    },
+    "cancellation": {
+      "title": "Cancellation",
+      "gap": "[Cancellation and refund policy to be confirmed by Al Fayzeen]"
+    },
+    "questions": {
+      "title": "Questions"
+    },
+    "similar": "Similar packages",
+    "book": {
+      "title": "Plan this trip",
+      "departure": "Departure date",
+      "room": "Room type",
+      "travellers": "Travellers",
+      "total": "Estimated total",
+      "perPerson": "{price} per person × {n}",
+      "deposit": "Deposit",
+      "depositGap": "[x]%",
+      "enquire": "Enquire",
+      "whatsapp": "Ask on WhatsApp",
+      "note": "Sample prices. A coordinator confirms the live price.",
+      "open": "Show booking details",
+      "adult": "{n} traveller | {n} travellers"
+    },
+    "gallery": "Photo {n} of {total}",
+    "galleryLabel": "Package photos",
+    "notFound": "Package not found"
+  },
+  "notice": {
+    "samples": "Prices shown are samples. Send an enquiry and we'll confirm live fares and seats.",
+    "hotels": "Prices shown are samples. Send an enquiry and we'll confirm live room rates and availability."
+  },
+  "flights": {
+    "eyebrowAr": "الرحلات الجوية",
+    "eyebrow": "Flights",
+    "h1": "Flights to Saudi Arabia",
+    "edit": "Edit",
+    "close": "Close search",
+    "adults": "{n} adult | {n} adults",
+    "children": "{n} child | {n} children",
+    "infants": "{n} infant | {n} infants",
+    "filters": "Filters",
+    "stops": "Stops",
+    "stopsOpts": {
+      "any": "Any",
+      "0": "Direct",
+      "1": "1 stop"
+    },
+    "time": "Departure time",
+    "times": {
+      "morning": "Morning (05–12)",
+      "afternoon": "Afternoon (12–18)",
+      "evening": "Evening (18–24)",
+      "night": "Night (00–05)"
+    },
+    "airline": "Airline",
+    "price": "Max price per adult",
+    "reset": "Reset filters",
+    "sort": "Sort by",
+    "sorts": {
+      "price": "Lowest price",
+      "duration": "Shortest",
+      "departure": "Earliest departure"
+    },
+    "results": "{n} sample result | {n} sample results",
+    "none": "No flights match these filters. Ask us on WhatsApp and we'll check live options.",
+    "direct": "Direct",
+    "stop": "{n} stop | {n} stops",
+    "via": "via {codes}",
+    "layover": "{min} min in {code}",
+    "baggage": "{kg} kg checked baggage",
+    "perAdult": "per adult",
+    "roundTrip": "Round-trip",
+    "oneWay": "One-way",
+    "multi": "Multi-city",
+    "outbound": "Outbound",
+    "return": "Return",
+    "leg": "Flight {n}",
+    "nextDay": "+1 day",
+    "duration": "{h}h {m}m",
+    "enquire": "Enquire",
+    "showFilters": "Show {n} result | Show {n} results"
+  },
+  "hotelsPage": {
+    "eyebrowAr": "الفنادق",
+    "eyebrow": "Hotels",
+    "h1": "Hotels near the Haram",
+    "nights": "{n} night | {n} nights",
+    "guests": "{n} guest | {n} guests",
+    "rooms": "{n} room | {n} rooms",
+    "sort": "Sort by",
+    "sorts": {
+      "walk": "Closest first",
+      "price": "Price: low to high"
+    },
+    "results": "{n} sample hotel | {n} sample hotels",
+    "walkFilter": "Walk to Haram: {label}",
+    "none": "No hotels within that walking time. Ask us and we'll check availability."
+  },
+  "transport": {
+    "eyebrowAr": "النقل",
+    "eyebrow": "Transport",
+    "h1": "Transport in Saudi Arabia",
+    "sub": "Airport pick-ups, the road between Makkah and Madinah, Ziyarat tours and a car with driver. Every driver is arranged by our team in Makkah.",
+    "serviceLabel": "Service",
+    "seats": "{n} seats",
+    "seatsUpTo": "Up to {n} seats",
+    "bags": "{n} bags",
+    "bagsPer": "1 bag per person",
+    "perTrip": "per vehicle",
+    "perDay": "per day",
+    "enquire": "Enquire",
+    "indicative": "Models are indicative examples.",
+    "yourTrip": "Your trip"
+  },
+  "visaPage": {
+    "eyebrowAr": "التأشيرة",
+    "eyebrow": "Umrah e-Visa",
+    "h1": "Your Umrah visa, prepared with you",
+    "sub": "We check your documents, submit your application through our licensed company account and send you the e-visa.",
+    "subGap": "[confirm process]",
+    "requirements": "What you'll need",
+    "process": "How it works",
+    "processing": "Processing time",
+    "processingGap": "[x] working days",
+    "options": "Visa only, or with a package?",
+    "withPkg": {
+      "title": "Visa with an Al Fayzeen package",
+      "text": "Your visa is part of every package, prepared alongside your hotels and transport.",
+      "cta": "See packages"
+    },
+    "only": {
+      "title": "Visa only",
+      "text": "If you've arranged everything else yourself, we can prepare and submit your visa.",
+      "gap": "[confirm if offered]"
+    },
+    "start": "Start my visa enquiry",
+    "faq": "Visa questions",
+    "forYou": "For {n} applicant · {nat} | For {n} applicants · {nat}",
+    "otherNat": "Requirements below are for Nigerian passport holders. Ask us about {nat} passports."
+  },
+  "guidePage": {
+    "eyebrowAr": "دليل العمرة",
+    "eyebrow": "Umrah guide",
+    "h1": "The Umrah guide",
+    "sub": "Short, practical notes for your first Umrah, prepared by our team in Makkah.",
+    "article": {
+      "title": "Umrah step by step",
+      "eyebrow": "Umrah guide",
+      "lead": "Umrah has four parts. Your group leader walks you through each one in Makkah; these notes help you know what to expect.",
+      "review": "Reviewed by Al Fayzeen's scholars before publishing",
+      "reviewGap": "[scholarly review to be confirmed]",
+      "readTime": "{n} min read",
+      "progress": "Reading progress",
+      "steps": [
+        {
+          "ar": "إحرام",
+          "en": "Ihram",
+          "body": "Before you pass the Miqat, you enter the state of Ihram: you make your intention for Umrah and begin the Talbiyah. Men wear two plain white cloths. Women wear modest, everyday clothing."
+        },
+        {
+          "ar": "طواف",
+          "en": "Tawaf",
+          "body": "At Masjid al-Haram you walk seven circuits around the Kaaba, counter-clockwise, beginning at the corner of the Black Stone."
+        },
+        {
+          "ar": "سعي",
+          "en": "Sa'i",
+          "body": "You walk seven times between the hills of Safa and Marwah, beginning at Safa and ending at Marwah."
+        },
+        {
+          "ar": "حلق / تقصير",
+          "en": "Halq or Taqsir",
+          "body": "Men shave the head (Halq) or shorten the hair (Taqsir). Women shorten a small length of hair. This completes your Umrah."
+        }
+      ],
+      "glossary": "Glossary",
+      "terms": [
+        {
+          "ar": "إحرام",
+          "en": "Ihram",
+          "def": "The sacred state for Umrah, and the white cloths men wear in it."
+        },
+        {
+          "ar": "ميقات",
+          "en": "Miqat",
+          "def": "The boundary where pilgrims enter Ihram."
+        },
+        {
+          "ar": "تلبية",
+          "en": "Talbiyah",
+          "def": "The words pilgrims repeat after entering Ihram, beginning \"Labbayk Allahumma labbayk\"."
+        },
+        {
+          "ar": "طواف",
+          "en": "Tawaf",
+          "def": "Seven circuits around the Kaaba."
+        },
+        {
+          "ar": "سعي",
+          "en": "Sa'i",
+          "def": "Seven walks between Safa and Marwah."
+        },
+        {
+          "ar": "حلق",
+          "en": "Halq",
+          "def": "Shaving the head to complete Umrah."
+        },
+        {
+          "ar": "تقصير",
+          "en": "Taqsir",
+          "def": "Shortening the hair to complete Umrah."
+        }
+      ],
+      "next": "Questions about your trip?",
+      "nextCta": "Ask a coordinator"
+    }
+  },
+  "about": {
+    "h1": "Al Fayzeen",
+    "eyebrowAr": "من نحن",
+    "eyebrow": "About us",
+    "nameTitle": "What the name means",
+    "nameText": "الفائزين means \"those who succeed\". It's a word the Qur'an uses for people of faith.",
+    "nameGap": "[Al Fayzeen to confirm what the name means to them; quote and reference to be provided by the client]",
+    "storyTitle": "Our story",
+    "storyGap": "[Founding story]",
+    "licencesTitle": "Licences",
+    "licenceMoh": "Ministry of Hajj and Umrah, Kingdom of Saudi Arabia",
+    "licenceNo": "Licence number",
+    "licenceOther": "[Other licences and registrations]",
+    "teamTitle": "Our team in Makkah",
+    "teamMember": "[Team member {n}]",
+    "teamRole": "[Role]",
+    "officeTitle": "Our office",
+    "officeAddress": "[Makkah office address]"
+  },
+  "contactPage": {
+    "h1": "Contact",
+    "eyebrowAr": "تواصل معنا",
+    "eyebrow": "Contact",
+    "sub": "A coordinator in Makkah will reply with prices and available dates.",
+    "wa": {
+      "title": "WhatsApp",
+      "text": "The fastest way to reach us, in English, Arabic and Hausa.",
+      "number": "Number",
+      "gap": "[WhatsApp number to be confirmed]",
+      "open": "Chat on WhatsApp"
+    },
+    "em": {
+      "title": "Email",
+      "text": "Send your details and we'll reply by email."
+    },
+    "offices": "Offices",
+    "makkah": "Makkah office",
+    "nigeria": "Nigeria contact",
+    "maps": "Open in Google Maps",
+    "mapsWhen": "Map link available once the address is confirmed",
+    "hours": "Hours",
+    "hoursGap": "[hours, Makkah time (UTC+3) and Nigeria time (UTC+1)]",
+    "general": "General enquiry"
+  }
+}

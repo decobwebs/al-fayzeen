@@ -1,0 +1,120 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@custom-variant rtl (&:where([dir="rtl"], [dir="rtl"] *));
+@custom-variant ltr (&:where([dir="ltr"], [dir="ltr"] *));
+
+/* ---------- Layout ---------- */
+@utility wrap {
+  width: 100%;
+  max-width: calc(var(--max-w) + var(--gutter) * 2);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+@utility section-y {
+  padding-block: var(--section-y);
+}
+
+/* ---------- Type scale ---------- */
+@utility t-hero {
+  font-family: var(--f-display);
+  font-size: var(--t-hero);
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+}
+@utility t-h2 {
+  font-family: var(--f-display);
+  font-size: var(--t-h2);
+  font-weight: 500;
+  line-height: 1.05;
+}
+@utility t-h3 {
+  font-family: var(--f-display);
+  font-size: var(--t-h3);
+  font-weight: 600;
+  line-height: 1.15;
+}
+@utility t-statement {
+  font-family: var(--f-display);
+  font-size: var(--t-statement);
+  font-weight: 500;
+  line-height: 1.18;
+}
+@utility t-label {
+  font-family: var(--f-body);
+  font-size: var(--t-label);
+  font-weight: 600;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+@utility t-small {
+  font-size: var(--t-small);
+  line-height: 1.55;
+}
+
+html[dir="rtl"] .t-hero,
+html[dir="rtl"] .t-h2,
+html[dir="rtl"] .t-h3,
+html[dir="rtl"] .t-statement {
+  font-family: var(--f-ar-display);
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+html[dir="rtl"] .t-label { letter-spacing: 0; }
+
+/* ---------- Truth: visible gaps for unconfirmed facts ---------- */
+.gap-text {
+  color: var(--c-stone);
+  font-style: italic;
+}
+.on-dark .gap-text { color: var(--c-on-dark-muted); }
+
+/* ---------- Glass (only over imagery) ---------- */
+.glass {
+  position: relative;
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.5);
+  backdrop-filter: blur(var(--glass-blur)) saturate(1.5);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-highlight), 0 20px 50px -24px rgba(0, 0, 0, .45);
+  isolation: isolate;
+}
+.glass--low {
+  -webkit-backdrop-filter: blur(10px) saturate(1.3);
+  backdrop-filter: blur(10px) saturate(1.3);
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass { background: var(--glass-fallback); }
+}
+
+/* ---------- Motion helpers ---------- */
+.ease-house { transition-timing-function: var(--ease); }
+
+/* Directional icons flip in RTL */
+[dir="rtl"] .flip-rtl { transform: scaleX(-1); }
+
+/* Numbers and prices stay LTR inside RTL text */
+.ltr-iso { direction: ltr; unicode-bidi: isolate; }
+
+/* Hide scrollbar but keep scrolling (tabs, snap rows) */
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+/* Selection */
+::selection { background: var(--c-kiswa); color: var(--c-ihram); }
+
+body { background: var(--c-ihram); overflow-x: clip; }
+img, video { max-width: 100%; }
+
+/* Popovers (search panel) */
+.popover-pane[data-state="open"] { animation: pop-in 200ms var(--ease); transform-origin: var(--reka-popover-content-transform-origin); }
+.popover-pane[data-state="closed"] { animation: pop-out 150ms var(--ease); }
+@keyframes pop-in { from { opacity: 0; transform: translateY(-4px) scale(.98); } }
+@keyframes pop-out { to { opacity: 0; transform: translateY(-4px) scale(.98); } }
+
+/* Arabic fonts have no italics; never faux-slant them */
+html[dir="rtl"] .italic, html[dir="rtl"] em, html[dir="rtl"] i { font-style: normal; }
